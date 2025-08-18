@@ -6,6 +6,8 @@ Features:
 <br>
 *Responsive button clicks and display updates
 <br>
-*Minimal, beginner-friendly code structure
+*Minimal code structure
 <br>
 *Easy to customize and expand with new operations
+<br>
+*Keyboard can be also to enter numbers and operators for calculations.
