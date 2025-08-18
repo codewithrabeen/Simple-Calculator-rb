@@ -1,0 +1,80 @@
+      body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: linear-gradient(135deg, #232526 50%);
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        height: 100vh;
+      }
+
+      .calculation {
+        color: #fff;
+        font-size: 48px;
+        margin: 20px 0 10px 0;
+        letter-spacing: 2px;
+        text-align: right;
+        padding-right: 30px;
+      }
+
+      .calculator-button {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        border: none;
+        font-size: 26px;
+        cursor: pointer;
+        margin: 8px 6px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        transition: background 0.2s, transform 0.1s;
+      }
+
+      .calculator-button:active {
+        transform: scale(0.96);
+      }
+
+      .gray-button {
+        background: linear-gradient(135deg, #444 0%, #666 100%);
+        color: #fff;
+      }
+
+      .orange-button {
+        background: linear-gradient(135deg, #ff9800 0%, #ffb74d 100%);
+        color: #fff;
+      }
+
+      .clear-button {
+        font-size: 17px;
+        height: 50px;
+        width: 70px;
+        background: linear-gradient(135deg, #2a51a5 0%, #6a89cc 100%);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 8px 6px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        transition: background 0.2s, transform 0.1s;
+      }
+
+      .clear-button:active {
+        transform: scale(0.96);
+      }
+
+      .lines {
+        margin-left: 50px;
+      }
+
+      .equal {
+        background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+        color: #222;
+        font-weight: bold;
+      }
+      .result {
+        font-size: 36px;
+        color: #fff;
+        margin: 10px 0;
+        text-align: right;
+        padding-right: 30px;
+        margin-top: 20px;
+        margin-right: 1000px;
+      }
